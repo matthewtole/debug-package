@@ -1,0 +1,11 @@
+{
+  "name": "debug-package",
+  "version": "1.0.0",
+  "description": "Automatically use the package name as the top level debug scope",
+  "main": "index.js",
+  "author": "Matthew Tole <matthewtole@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.3"
+  }
+}
