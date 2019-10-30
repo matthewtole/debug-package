@@ -1,16 +1,18 @@
 {
   "name": "debug-package",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Automatically use the package name as the top level debug scope",
   "main": "index.js",
   "author": "Matthew Tole <matthewtole@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "debug": "^2.6.3"
+    "debug": "^4.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest index.test.js"
   },
   "repository": {
     "type": "git",
